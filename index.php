@@ -3,7 +3,7 @@
 // Your Site Settings
 $MerchentID = '******';// in ghesmat ra takmil nemeyed !!;
 $Password = '*********';// in ghesmat ra takmil nemeyed !!
-$PageTitle = 'عنوان سایت';
+$PageTitle = 'پرداخت آنلاین پارس مگز';
 $ShowOrderNumberField = true;
 
 
@@ -17,7 +17,7 @@ $ReturnPath = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
 <head>
     <title>سامانه پرداخت آنلاین <?php echo ($PageTitle) ?></title>
 
-    <link href="css/Style.css" rel="stylesheet" type="text/css" />
+    <link href="Style.css" rel="stylesheet" type="text/css" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 </head>
@@ -25,7 +25,7 @@ $ReturnPath = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
 
     <div class="AllPage">
         <div style="padding: 20px;">
-                   <img src="css/Images/t_OnlinePay.png"/>
+                   <img src="t_OnlinePay.png"/>
         </div>
         <table style="margin: auto;">
             <tr>
@@ -75,8 +75,8 @@ else
                             <tr><td colspan="2">جهت پرداخت با مشخصات فوق برروی دکمه اتصال به درگاه پرداخت کلیک نمایید .</td></tr>
                             <tr><td colspan="2"><input type="submit" value="اتصال به درگاه پرداخت آنلاین آرین پال"  class="sbtn"/></td></tr></table>
                             <div style="display:none">
-                            <input type="hidden" id="MerchantID" value="' . $MerchentID . '" name="MerchantID"/>
-                        	<input type="hidden" id="Password" value="' . $Password . '" name="Password"/>
+                            <input type="hidden" id="MerchantID" value="' . $MerchentID . '" name="0480609"/>
+                        	<input type="hidden" id="Password" value="' . $Password . '" name="ewTvi0g26"/>
                         	<input type="hidden" id="Paymenter" value="' . str_replace($match, $replace, $_POST['Paymenter']) . '" name="Paymenter"/>
                         	<input type="hidden" id="Email" value="' . str_replace($match, $replace, $_POST['Email']) . '" name="Email"/>
                         	<input type="hidden" id="Mobile" value="' . str_replace($match, $replace, $_POST['Mobile']) . '" name="Mobile"/>
